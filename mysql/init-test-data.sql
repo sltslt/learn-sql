@@ -1,7 +1,7 @@
 -- 如果test数据库不存在，就创建test数据库：
 CREATE DATABASE IF NOT EXISTS test;
 
--- 切换到test数据库
+-- 切换到test数据库baka
 USE test;
 
 -- -- 删除classes表和students表（如果存在）：
