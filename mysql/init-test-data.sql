@@ -4,9 +4,9 @@ CREATE DATABASE IF NOT EXISTS test;
 -- 切换到test数据库baka
 USE test;
 
--- -- 删除classes表和students表（如果存在）：
--- DROP TABLE IF EXISTS classes;
--- DROP TABLE IF EXISTS students;
+-- 删除classes表和students表（如果存在）：
+DROP TABLE IF EXISTS classes;
+DROP TABLE IF EXISTS students;
 
 -- 创建classes表：
 CREATE TABLE classes (
